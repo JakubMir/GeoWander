@@ -1,44 +1,28 @@
-# default
+# GeoWander - Flag Guessing Game
 
-## Project setup
+GeoWander is an interactive game developed using Vue.js, Vuetify, and Firebase. It allows users to guess flags of countries with varying difficulty levels, track their performance, view a leaderboard and browse countries via country list. Firebase is used for database management and user authentication.
 
-```
-# yarn
-yarn
+## Firebase Setup
+Make sure you configure your Firebase credentials by adding them to your .env files or within the appropriate service files.
 
-# npm
-npm install
+## Features
 
-# pnpm
-pnpm install
-```
+- **Country Guessing Game**: Users are presented with flags and must guess the country they belong to.
+- **Three Difficulty Levels**: The game includes three levels of difficulty, making it suitable for beginners as well as advanced users.
+- **List of countries with info**: Users can browse all countries included in game and see informations about selected country.
+- **User Authentication**: Firebase Authentication allows users to sign up, log in, and keep track of their progress.
+- **Leaderboard**: Users can see the leaderboard to compare their performance with others.
 
-### Compiles and hot-reloads for development
+## Tech Stack
 
-```
-# yarn
-yarn dev
+- **Frontend**: Vue.js, Vuetify
+- **Backend**: Firebase (for user authentication and database)
+- **Styling**: Vuetify for responsive and modern UI
+- **Deployment**: (optional: add any specific deployment details like Netlify, Firebase Hosting, etc.)
 
-# npm
-npm run dev
+### Steps
 
-# pnpm
-pnpm dev
-```
+1. Clone the repository:
 
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+   ```bash
+   git clone https://github.com/JakubMir/GeoWander.git
